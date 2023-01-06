@@ -10,10 +10,20 @@
 a{
     text-decoration: none;
 }
+.btn-primary{
+    font-size: 20px;
+    color: #005FAC;
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+}
 /* Basic css ends */
 /* Header parts starts */
 .header{
-    background: url(..//images/banner/banner1.png) no-repeat;
+    background: url(..//images/banner/banner3.png) no-repeat;
+    background-size: cover;
+    
 }
 .header-item{
     padding: 200px 0 150px;
@@ -23,24 +33,17 @@ a{
 }
 .header-title{
     font-size: 50px;
-    color: #151414;
+    color: #ffffff;
     padding-bottom: 25px;
 }
 .header-description{
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: #ffffff;
     padding-bottom: 30px;
 
 }
-.header button{
-    font-size: 20px;
-    padding: 18px 35px;
-    color: #ffffff;
-    background-color: #F15B22;
-    border: none;
-    border-radius: 5px;
-}
+
 /* Header parts ends */
 /* Banner parts starts */
 .banner{
@@ -48,7 +51,7 @@ a{
     gap: 60px;
     text-align: left;
     align-items: center;
-    margin-top: 120px;
+    margin: 120px 250px 0 50px;
     margin-right: 250px;
 }
 .banner-title{
@@ -71,3 +74,92 @@ a{
     font- size: 20px;
 }
 /* Banner parts ends */
+/* My plan section starts */
+
+.plan{
+    margin: 120px 250px 0 50px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skill h3{
+    font-size: 30px;
+    flood-color: #151414;
+    padding: 20px 0;
+}
+.skill p{
+    font-size: 25px;
+}
+/* My plan section ends */
+/* Call section starts */
+.call{
+    margin: 120px 250px 0 50px;
+    /* background:url(..//images/gradient1.png), url(..//images/watch.png); I learnt to add multiple background from second conceptual session */
+    background-image: linear-gradient(90deg,#005FAC, #ffffff00), url(..//images/watch.png);/*I learn it from youtube linear-gradient property*/
+    padding: 60px;
+    border-radius: 10px;
+}
+.call h2{
+    font-size: 40px;
+    color: #ffffff;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+/* Call section ends */
+/* footer section start */
+.footer{
+    background-color: #151414;;
+}
+.footer-item{
+    margin: 120px 250px 0 50px;
+    display: flex;
+    padding: 120px 0;
+}
+.footer-item h2{
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer-item p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+.footer-item .icon{
+    display: inline;
+    margin-right: 15px;
+}
+.footer-item h3{
+    color: #ffffff;
+    font-weight: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer-item input{
+    color: #ffffff;
+    padding: 20px 20px;
+    width: 80%;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-item button{
+    padding: 20px 30px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #005FAC;
+    border-radius: 5px;
+}
+/* footer section ends */
