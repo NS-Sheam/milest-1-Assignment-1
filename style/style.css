@@ -1,16 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
-.full-container{
+
+.full-container {
     width: 1400px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.btn-primary{
+
+.btn-primary {
     font-size: 20px;
     color: #005FAC;
     background-color: #ffffff;
@@ -18,25 +21,29 @@ a{
     padding: 20px 35px;
     border-radius: 5px;
 }
+
 /* Basic css ends */
 /* Header parts starts */
-.header{
+.header {
     background: url(..//images/banner/banner3.png) no-repeat;
     background-size: cover;
-    
+
 }
-.header-item{
+
+.header-item {
     padding: 200px 0 150px;
     margin-right: 200px;
     margin-left: 700px;
     text-align: right;
 }
-.header-title{
+
+.header-title {
     font-size: 50px;
     color: #ffffff;
     padding-bottom: 25px;
 }
-.header-description{
+
+.header-description {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
@@ -46,7 +53,7 @@ a{
 
 /* Header parts ends */
 /* Banner parts starts */
-.banner{
+.banner {
     display: flex;
     gap: 60px;
     text-align: left;
@@ -54,58 +61,69 @@ a{
     margin: 120px 200px 0 50px;
     margin-right: 250px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 40px;
     width: 70%;
     padding-bottom: 25px;
     color: #151414;
 }
-.banner-description{
+
+.banner-description {
     font-size: 16px;
     line-height: 26px;
     padding-bottom: 20px;
 }
-.banner .list{
+
+.banner .list {
     font-size: 16px;
     padding-bottom: 10px;
 }
-.banner .list i{
+
+.banner .list i {
     color: green;
     font-size: 20px;
 }
+
 /* Banner parts ends */
 /* Blogs section starts */
 
-.my-blogs{
+.my-blogs {
     margin: 120px 200px 0 50px;
     text-align: center;
 }
-.my-blogs h2{
+
+.my-blogs h2 {
     font-size: 40px;
     color: #151414;
     margin-bottom: 50px;
 }
-.blogs{
+
+.blogs {
     display: flex;
     gap: 25px;
 }
-.blog{
+
+.blog {
     padding: 35px;
     text-align: left;
     background-color: rgb(248, 237, 209);
     border-radius: 5px;
 }
-.blog-title{
+
+.blog-title {
     font-size: 30px;
     color: #151414;
 }
-.blog-description{
+
+.blog-description {
     font-size: 20px;
     line-height: 30px;
     color: #151414;
     padding: 20px 0;
 }
-.blog button{
+
+.blog button {
     font-size: 20px;
     color: #ffffff;
     padding: 15px 30px;
@@ -118,38 +136,45 @@ a{
 /* Blogs section ends */
 /* My plan section starts */
 
-.plan{
+.plan {
     margin: 120px 200px 0 50px;
     text-align: center;
 }
-.plan-title{
+
+.plan-title {
     font-size: 40px;
     color: #151414;
     margin-bottom: 50px;
 }
-.skills{
+
+.skills {
     display: flex;
     justify-content: space-between;
 }
-.skill h3{
+
+.skill h3 {
     font-size: 30px;
     flood-color: #151414;
     padding: 20px 0;
 }
-.skill p{
+
+.skill p {
     font-size: 25px;
 }
+
 /* My plan section ends */
 /* Call section starts */
-.call{
+.call {
     margin: 120px 200px 0 50px;
     /* background:url(..//images/gradient1.png), url(..//images/watch.png); I learnt to add multiple background from second conceptual session */
-    background-image: linear-gradient(90deg,#005FAC, #ffffff00), url(..//images/watch.png);/*I learn it from youtube linear-gradient property*/
+    background-image: linear-gradient(90deg, #005FAC, #ffffff00), url(..//images/watch.png);
+    /*I learn it from youtube linear-gradient property*/
     background-repeat: no-repeat;
     padding: 60px;
     border-radius: 10px;
 }
-.call h2{
+
+.call h2 {
     font-size: 40px;
     color: #ffffff;
     width: 50%;
@@ -158,37 +183,44 @@ a{
 
 /* Call section ends */
 /* footer section start */
-.footer{
-    background-color: #151414;;
+.footer {
+    background-color: #151414;
+    ;
 }
-.footer-item{
+
+.footer-item {
     margin: 120px 200px 0 50px;
     display: flex;
     padding: 120px 0;
 }
-.footer-item h2{
+
+.footer-item h2 {
     font-size: 45px;
     color: #ffffff;
     margin-bottom: 20px;
 }
-.footer-item p{
+
+.footer-item p {
     font-size: 16px;
     color: #ffffff;
     line-height: 26px;
     padding-bottom: 20px;
     width: 50%;
 }
-.footer-item .icon{
+
+.footer-item .icon {
     display: inline;
     margin-right: 15px;
 }
-.footer-item h3{
+
+.footer-item h3 {
     color: #ffffff;
     font-weight: 25px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.footer-item input{
+
+.footer-item input {
     color: #ffffff;
     padding: 20px 20px;
     width: 80%;
@@ -198,11 +230,12 @@ a{
     margin-bottom: 20px;
 }
 
-.footer-item button{
+.footer-item button {
     padding: 20px 30px;
     color: #ffffff;
     font-weight: 700;
     background-color: #005FAC;
     border-radius: 5px;
 }
+
 /* footer section ends */
