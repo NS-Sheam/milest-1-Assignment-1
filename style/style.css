@@ -93,6 +93,11 @@ a {
     text-align: center;
 }
 
+.blog img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 .my-blogs h2 {
     font-size: 40px;
     color: #151414;
