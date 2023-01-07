@@ -171,9 +171,9 @@ a {
 /* Call section starts */
 .call {
     margin: 120px 200px 0 50px;
-    /* background:url(..//images/gradient1.png), url(..//images/watch.png); I learnt to add multiple background from second conceptual session */
+    /* background:url(..//images/gradient1.png), url(..//images/watch.png); From second conceptual session */
     background-image: linear-gradient(90deg, #005FAC, #ffffff00), url(..//images/watch.png);
-    /*I learn it from youtube linear-gradient property*/
+    /*From youtube linear-gradient property*/
     background-repeat: no-repeat;
     padding: 60px;
     border-radius: 10px;
